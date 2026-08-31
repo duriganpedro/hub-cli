@@ -1,0 +1,2 @@
+# hub-cli requires zero mandatory external runtime dependencies.
+# Standard library Python 3.10+ is all you need.

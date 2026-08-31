@@ -1,0 +1,17 @@
+# Databases & Caches
+*.db
+*.db-shm
+*.db-wal
+*.log
+*.json
+!config.example.json
+__pycache__/
+*.pyc
+
+# Local config directory
+.config/
+.env
+
+# OS Files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,32 @@
+{
+  "accounts": {
+    "account_1": {
+      "name": "Primary Mail",
+      "email": "<YOUR_EMAIL_ADDRESS_HERE>",
+      "password": "<YOUR_APP_PASSWORD_HERE>",
+      "imap_server": "<YOUR_IMAP_SERVER_HERE>",
+      "imap_port": 993,
+      "smtp_server": "<YOUR_SMTP_SERVER_HERE>",
+      "smtp_port": 587,
+      "use_ssl": true,
+      "use_starttls": true
+    }
+  },
+  "ai": {
+    "provider": "lmstudio",
+    "lmstudio_endpoint": "http://localhost:1234/v1",
+    "local_model": "local-model",
+    "local_models_path": "<PATH_TO_YOUR_GGUF_MODELS_DIRECTORY>",
+    "endpoint": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "model": "gemini-2.5-flash",
+    "api_key": "<YOUR_API_KEY_HERE>",
+    "temperature": 0.2,
+    "max_tokens": 1024
+  },
+  "library": {
+    "calibre_metadata_path": "<PATH_TO_YOUR_CALIBRE_METADATA_DB_HERE>"
+  },
+  "weather": {
+    "default_city": "<YOUR_DEFAULT_CITY_HERE>"
+  }
+}
